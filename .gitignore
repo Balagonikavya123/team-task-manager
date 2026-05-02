@@ -1,0 +1,31 @@
+# Backend
+Backend/node_modules/
+Backend/.env
+Backend/npm-debug.log
+Backend/.DS_Store
+
+# Frontend
+Frontend/node_modules/
+Frontend/build/
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Misc
+*.log
+.env.local
+dist/
+build/

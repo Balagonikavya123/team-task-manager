@@ -1,0 +1,27 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Full-stack Team Task Manager Application",
+  "main": "Backend/server.js",
+  "scripts": {
+    "install-all": "cd Backend && npm install && cd ../Frontend && npm install",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd Backend && npm start",
+    "client": "cd Frontend && npm start",
+    "dev": "concurrently \"cd Backend && npm run dev\" \"cd Frontend && npm start\"",
+    "build": "cd Frontend && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "task",
+    "project",
+    "team",
+    "management",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
