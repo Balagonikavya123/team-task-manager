@@ -1,4 +1,4 @@
-# Team Task Manager - Full Stack Application
+Team Task Manager - Full Stack Application
 
 A comprehensive web application for managing projects, teams, and tasks with role-based access control.
 
